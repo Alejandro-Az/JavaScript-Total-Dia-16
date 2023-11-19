@@ -21,7 +21,6 @@ Desde una universidad, te piden que desarrolles un sistema para gestionar el cur
 * nota
 * fecha
 
-
 REQUISITOS:
 * Crear manualmente una base de datos en base a la información proporcionada. Puedes utilizar base de datos relacionales (MySQL) o no relacionales (MongoDB), lo que tu prefieras.
 * Programar una API utilizando ExpressJS que establezca una conexión con la base de datos y desarrolle los siguientes métodos (endpoints):

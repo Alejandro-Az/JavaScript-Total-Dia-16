@@ -6,20 +6,20 @@ En esta ocasión subo el ejercicio del día 16 del curso "JavaScript Total" que 
 Desde una universidad, te piden que desarrolles un sistema para gestionar el cursado. A grandes rasgos necesitan que este sistema administre tres grupos de datos:
 
 1. Registro de ESTUDIANTES inscriptos en la universidad, que incluya:
-        * legajo
-        * nombre
-        * email
+* legajo
+* nombre
+* email
 2. Registro de CURSOS, que incluya:
-        * codigo
-        * nombre
-        * docente
-        * descripción
+* codigo
+* nombre
+* docente
+* descripción
 3. Registro de NOTAS de los exámenes que cada estudiante obtiene en cada curso, que incluya:
-        * id
-        * legajo_estudiante
-        * codigo_curso
-        * nota
-        * fecha
+* id
+* legajo_estudiante
+* codigo_curso
+* nota
+* fecha
 
 
 REQUISITOS:

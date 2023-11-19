@@ -23,22 +23,22 @@ Desde una universidad, te piden que desarrolles un sistema para gestionar el cur
 
 
 REQUISITOS:
-	* Crear manualmente una base de datos en base a la información proporcionada. Puedes utilizar base de datos relacionales (MySQL) o no relacionales (MongoDB), lo que tu prefieras.
-	* Programar una API utilizando ExpressJS que establezca una conexión con la base de datos y desarrolle los siguientes métodos (endpoints):
-		- GET: estudiantes/[legajo]
-		    Consultar el registro del estudiante con el legajo recibido en la URL
+* Crear manualmente una base de datos en base a la información proporcionada. Puedes utilizar base de datos relacionales (MySQL) o no relacionales (MongoDB), lo que tu prefieras.
+* Programar una API utilizando ExpressJS que establezca una conexión con la base de datos y desarrolle los siguientes métodos (endpoints):
+* GET: estudiantes/[legajo]
+  Consultar el registro del estudiante con el legajo recibido en la URL
 
-		- POST: estudiantes/create
-                Crear un nuevo registro de estudiantes con los datos recibidos
+* POST: estudiantes/create
+  Crear un nuevo registro de estudiantes con los datos recibidos
 
-		- POST: notas/create
-		    Crear un nuevo registro de un examen con los datos recibidos
+* POST: notas/create
+Crear un nuevo registro de un examen con los datos recibidos
 
-		- PUT - notas/[id]/update
-                Modificar el registro de un examen según el id recibido en la URL con los nuevos datos recibidos
+* PUT - notas/[id]/update
+  Modificar el registro de un examen según el id recibido en la URL con los nuevos datos recibidos
 
-		- DELETE - notas/[id]/delete
-		    Eliminar un registro de un examen según el id recibido en la URL
+* DELETE - notas/[id]/delete
+Eliminar un registro de un examen según el id recibido en la URL
 
-		- GET - notas/[codigo]/aprobados
-		    Consultar los exámenes registrados del curso cuyo código se recibe en la URL, pero solo incluir en la consulta los exámenes aprobados. Es decir con nota igual o mayor a 6.
+* GET - notas/[codigo]/aprobados
+Consultar los exámenes registrados del curso cuyo código se recibe en la URL, pero solo incluir en la consulta los exámenes aprobados. Es decir con nota igual o mayor a 6.
